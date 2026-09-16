@@ -44,7 +44,7 @@ post{
                     
                     Job: ${env.JOB_NAME}
                     Build Number: ${env.BUILD_NUMBER}
-                    Build URL: ${env.BUILD_URL}
+                    Build URL: ${env.BUILD.URL}
                     """
                     
                     )
